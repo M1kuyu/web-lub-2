@@ -1,0 +1,106 @@
+/* Общие стили */
+body {
+    font-family: Oswald, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.jpg'); /* Фоновое изображение для страницы с формой */
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Стили для формы обратной связи */
+.content-block {
+    background-color: rgba(255, 255, 255, 0.9); /* Полупрозрачный блок */
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="file"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Стили для формы аутентификации */
+.auth-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый блок */
+    padding: 40px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.auth-form form input[type="text"],
+.auth-form form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-form form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-form form button:hover {
+    background-color: #0056b3;
+}
+
+.auth-form form label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.auth-form form label input {
+    margin-right: 5px;
+}
